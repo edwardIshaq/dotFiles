@@ -74,6 +74,7 @@ plugins=(
 	brew
 	pip
 	extract
+	kubectl
 )
 
 source $ZSH/oh-my-zsh.sh
