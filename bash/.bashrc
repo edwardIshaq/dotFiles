@@ -12,6 +12,7 @@ alias gitd='git diff'
 alias gitl='git log --color --graph --decorate --summary --stat'
 alias o='open'
 alias mysql='/usr/local/mysql/bin/mysql'
+alias bashconfig='mate ~/.bashrc'
 
 # Add GHC 7.10.1 to the PATH, via https://ghcformacosx.github.io/
 export GHC_DOT_APP="/Applications/ghc-7.10.1.app"
