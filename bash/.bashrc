@@ -14,6 +14,7 @@ alias o='open'
 alias mysql='/usr/local/mysql/bin/mysql'
 alias bashconfig='mate ~/.bashrc'
 
+#Haskell
 # Add GHC 7.10.1 to the PATH, via https://ghcformacosx.github.io/
 export GHC_DOT_APP="/Applications/ghc-7.10.1.app"
 if [ -d "$GHC_DOT_APP" ]; then
@@ -27,3 +28,6 @@ export GOPATH=$HOME/Workspace/go
 
 #k8s
 alias k=kubectl
+
+#Mac
+alias pidInfo='sudo launchctl procinfo'

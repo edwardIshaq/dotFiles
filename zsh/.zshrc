@@ -80,6 +80,9 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/.bashrc
 
+alias zshconfig='mate ~/.zshrc'
+alias zshreload='source ~/.zshrc'
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -107,4 +110,3 @@ source ~/.bashrc
 #
 # Example aliases
 # alias ohmyzsh='mate ~/.oh-my-zsh'
-alias zshconfig='mate ~/.zshrc'
